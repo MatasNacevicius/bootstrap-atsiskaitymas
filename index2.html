@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+            <a href="#restoranas" class="navbar-brand mb-0 h1" style="font-weight: bolder">Restoranas</a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse h6" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active dropdown">
+                        <a href="index.html" class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home</a>
+                            <ul class="dropdown-menu" aria-label="navbarDropdown">
+                                <li><a href="./index.html#spec" class="dropdown-item">Sventines vakariene</a></li>
+                                <li><a href="./index.html#sefai" class="dropdown-item">Sefai</a></li>
+                                <li><a href="./index.html#karjera" class="dropdown-item">Karjera</a></li>
+                                <hr>
+                                <li><a href="./index.html#kontaktai" class="dropdown-item">Kontaktai</a></li>
+                            </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="./index.html#pietus" class="nav-link active">Dienos pietus</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active dropdown">
+                        <a href="#" class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Meniu</a>
+                        <ul class="dropdown-menu" aria-label="navbarDropdown">
+                            <li><a href="#uzkandziai" class="dropdown-item">Uzkandziai</a></li>
+                            <li><a href="#sriuba" class="dropdown-item">Sriubos</a></li>
+                            <li><a href="#karsti" class="dropdown-item">Karstieji patiekalai</a></li>
+                            <hr>
+                            <li><a href="#uzsakymas" class="dropdown-item">Uzsakymai i namus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section id="uzkandziai" class="row mt-5 rb-5 pt-sm-5" style="max-width: 1200px; margin: 0 auto;">
+            <h1 class="text-center m-2">Uzkandziai</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1613462847848-f65a8b231bb5?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25ha3N8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, rem? Reiciendis nostrum est beatae explicabo saepe magnam dolor mollitia ea doloremque, fugiat unde, minus natus assumenda ipsa minima, recusandae voluptatibus.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>10,99&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c25ha3N8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum temporibus quasi quibusdam ipsam quaerat eum quod harum possimus dolore in aperiam, odit, veritatis error ipsa. Iusto rem voluptate dolor consectetur!</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>7,5&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c25ha3N8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id optio, quasi, voluptates modi est quo possimus porro voluptas soluta ipsa laborum culpa dolorum numquam quae a expedita voluptatem molestiae excepturi.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>12&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNuYWtzfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione repellendus quo cupiditate nesciunt adipisci incidunt asperiores inventore dolore, fuga unde debitis minus. Id reiciendis corporis molestias officia fuga maiores tempore.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>14&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1684403620650-81dc661a69db?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNuYWtzfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, omnis, alias eligendi suscipit modi veritatis perferendis dolore recusandae, minima corrupti saepe ratione voluptatum aut sed ex laborum quibusdam similique. Tempora!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>25&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNuYWtzfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore ipsa necessitatibus. Laborum nesciunt inventore dolorem consectetur exercitationem est quaerat quia veritatis vel molestiae amet impedit recusandae rerum, aperiam maiores!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>18&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <section id="sriuba" class="row mt-5 rb-5 pt-sm-5" style="max-width: 1200px; margin: 0 auto;">
+            <h1 class="text-center m-2">Sriubos</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1607528971899-2e89e6c0ec69?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c291cHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, rem? Reiciendis nostrum est beatae explicabo saepe magnam dolor mollitia ea doloremque, fugiat unde, minus natus assumenda ipsa minima, recusandae voluptatibus.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>10,99&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c291cHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum temporibus quasi quibusdam ipsam quaerat eum quod harum possimus dolore in aperiam, odit, veritatis error ipsa. Iusto rem voluptate dolor consectetur!</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>7,5&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c291cHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id optio, quasi, voluptates modi est quo possimus porro voluptas soluta ipsa laborum culpa dolorum numquam quae a expedita voluptatem molestiae excepturi.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>12&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c291cHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione repellendus quo cupiditate nesciunt adipisci incidunt asperiores inventore dolore, fuga unde debitis minus. Id reiciendis corporis molestias officia fuga maiores tempore.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>14&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvdXBzfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, omnis, alias eligendi suscipit modi veritatis perferendis dolore recusandae, minima corrupti saepe ratione voluptatum aut sed ex laborum quibusdam similique. Tempora!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>25&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1560684352-8497838a2229?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNvdXBzfGVufDB8fDB8fHww" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore ipsa necessitatibus. Laborum nesciunt inventore dolorem consectetur exercitationem est quaerat quia veritatis vel molestiae amet impedit recusandae rerum, aperiam maiores!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>18&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <section id="karsti" class="row mt-5 rb-5 pt-sm-5" style="max-width: 1200px; margin: 0 auto;">
+            <h1 class="text-center m-2">Karstieji patiekalai</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1513262599279-d287e25f4d84?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90JTIwbWVhbHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, rem? Reiciendis nostrum est beatae explicabo saepe magnam dolor mollitia ea doloremque, fugiat unde, minus natus assumenda ipsa minima, recusandae voluptatibus.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>10,99&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1543826173-1beeb97525d8?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdCUyMG1lYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum temporibus quasi quibusdam ipsam quaerat eum quod harum possimus dolore in aperiam, odit, veritatis error ipsa. Iusto rem voluptate dolor consectetur!</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>7,5&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1445979323117-80453f573b71?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdCUyMG1lYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id optio, quasi, voluptates modi est quo possimus porro voluptas soluta ipsa laborum culpa dolorum numquam quae a expedita voluptatem molestiae excepturi.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>12&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1604908177453-7462950a6a3b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGhvdCUyMG1lYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Patiekalas Nr.X</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione repellendus quo cupiditate nesciunt adipisci incidunt asperiores inventore dolore, fuga unde debitis minus. Id reiciendis corporis molestias officia fuga maiores tempore.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>14&#8364</h3>
+                        <button type="submit" class="btn btn-primary">Order</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1625944226957-10458fe06691?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGhvdCUyMG1lYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, omnis, alias eligendi suscipit modi veritatis perferendis dolore recusandae, minima corrupti saepe ratione voluptatum aut sed ex laborum quibusdam similique. Tempora!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>25&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1644921504851-b8861be402ac?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGhvdCUyMG1lYWx8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="..." style="height: 300px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Patiekalas Nr.X</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore ipsa necessitatibus. Laborum nesciunt inventore dolorem consectetur exercitationem est quaerat quia veritatis vel molestiae amet impedit recusandae rerum, aperiam maiores!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>18&#8364</h3>
+                            <button type="submit" class="btn btn-primary">Order</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <section
+      id="uzsakymas"
+      style="max-width: 1200px; margin: 0 auto"
+      class="row mt-5 rb-5 pt-sm-5"
+    >
+      <h1 class="text-center m-2">Užsakymai į namus</h1>
+      <form>
+        <div class="form-outline">
+          <p>Name</p>
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1"></label>
+        </div>
+        <div class="form-outline">
+          <p>Email address</p>
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2"></label>
+        </div>
+
+        <div class="form-outline">
+          <p>Phone</p>
+          <input type="tel" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1"></label>
+        </div>
+        <div class="form-outline">
+          <p>Order</p>
+          <textarea class="form-control" id="form4Example3" rows="4" placeholder="Write meals name and quantity"></textarea>
+          <label class="form-label" for="form4Example3"></label>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary btn-block mb-4"
+          style="width: 100%"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+    </main>
+    <footer>
+        <div style="max-width: 1200px; margin: auto;">
+          <div>
+          <h5><i class="bi bi-hourglass-split"></i>Darbo laikas: 11-23val.</h5>
+            <h5><i class="bi bi-signpost-fill"></i>Laisves al. 33, Kaunas</h5>
+          </div>
+          <div class="conteiner row">
+              <div class="col-12 col-md-4 d-none d-md-block"><h5><i class="bi bi-info-circle-fill"></i>Rekvizitai:</h5>
+                  <div>
+                  <p>agfagag</p>
+                  <p>afafafaf</p>
+                  <p>gagagfa</p>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                <section class="mb-4">
+                  <a
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #3b5998;"
+                    href="https://www.facebook.com/"
+                    role="button"
+                    ><i class="bi bi-facebook"></i></a>
+                  <a
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #55acee;"
+                    href="https://twitter.com/"
+                    role="button"
+                    ><i class="bi bi-twitter"></i></a>
+                  <a
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="https://lt.linkedin.com/"
+                    role="button"
+                    ><i class="bi bi-linkedin"></i></a>
+                  <a
+                    class="btn text-white btn-floating m-1"
+                    style="background-color: #747272;"
+                    href="https://mail.google.com/"
+                    role="button"
+                    ><i class="bi bi-envelope"></i></a>
+                </section>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center align-items-center"><h5>&#169All rights reserved 2023</h5></div>
+          </div>
+        </div>
+      </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

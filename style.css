@@ -1,0 +1,12 @@
+.navbar{
+    background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    background-image: url(https://media.istockphoto.com/id/1177485297/photo/products-with-low-glycemic-index.jpg?s=612x612&w=0&k=20&c=gyKOUGpaon7mVgfsBLO3MYmDu9yldt7_JPK4VyLyfv0=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
